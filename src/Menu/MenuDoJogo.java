@@ -1,5 +1,6 @@
 package Menu;
 
+import Instruções.Creditos;
 import Personagem.CriaçãoPersonagem;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -42,7 +43,7 @@ public class MenuDoJogo {
                     break;
                 case "3":
                     System.out.println("Créditos: ");
-
+                    Creditos.main();
 
                     break;
 
@@ -54,12 +55,4 @@ public class MenuDoJogo {
 
     }
 
-    static void InformacaoUsu(String nome, String Classes)
-    {
-        System.out.println("Informe seu nome: ");
-        nome = scan.next();
-
-        System.out.println("Informe sua classe desejada: ");
-        Classes = scan.next();
-    }
 }

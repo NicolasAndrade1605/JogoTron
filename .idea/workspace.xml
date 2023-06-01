@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6e3cf66-6ec8-4812-899e-cc9b9f173be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Instruções/InstruçõesJogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu/MenuDoJogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Instruções/Creditos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personagem/HistoriaJogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personagem/Perguntas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/MenuDoJogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/MenuDoJogo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,7 @@
       <workItem from="1682717477143" duration="1443000" />
       <workItem from="1682989877301" duration="636000" />
       <workItem from="1683952976012" duration="3315000" />
-      <workItem from="1685566892059" duration="3919000" />
+      <workItem from="1685566892059" duration="8644000" />
     </task>
     <servers />
   </component>
