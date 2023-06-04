@@ -14,8 +14,8 @@ public class CriaçãoPersonagem {
         String nome = entrada.nextLine();
         System.out.println("Classe: ");
         System.out.println("Você pode escolher entre essas classes: " +
-                "\n 1- ______" +
-                "\n 2- _____");
+                "\n 1- AZUL" +
+                "\n 2- LARANJA");
         String classe = entrada.nextLine();
         System.out.println("Nivel: ");
         int nivel = aleatorio.nextInt(101);

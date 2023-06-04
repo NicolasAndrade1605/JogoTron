@@ -2,6 +2,8 @@ package Menu;
 
 import Instruções.Creditos;
 import Personagem.CriaçãoPersonagem;
+import Personagem.Perguntas;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -34,6 +36,7 @@ public class MenuDoJogo {
                 case "1":
                     System.out.println("Bora Jogar! ");
                     CriaçãoPersonagem.main();
+                    Perguntas.main();
 
                     break;
 
@@ -51,7 +54,8 @@ public class MenuDoJogo {
                     System.out.println("Opção Invalida!");
             }
 
-        }while (opcao.equals("4") == false);
+        }
+        while (opcao.equals("4") == false);
 
     }
 
