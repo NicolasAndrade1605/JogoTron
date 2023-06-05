@@ -1,6 +1,9 @@
 package Menu;
 
+import Instruções.Creditos;
 import Personagem.CriaçãoPersonagem;
+import Personagem.Perguntas;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -33,6 +36,7 @@ public class MenuDoJogo {
                 case "1":
                     System.out.println("Bora Jogar! ");
                     CriaçãoPersonagem.main();
+                    Perguntas.main();
 
                     break;
 
@@ -42,7 +46,7 @@ public class MenuDoJogo {
                     break;
                 case "3":
                     System.out.println("Créditos: ");
-
+                    Creditos.main();
 
                     break;
 
@@ -50,16 +54,9 @@ public class MenuDoJogo {
                     System.out.println("Opção Invalida!");
             }
 
-        }while (opcao.equals("4") == false);
+        }
+        while (opcao.equals("4") == false);
 
     }
 
-    static void InformacaoUsu(String nome, String Classes)
-    {
-        System.out.println("Informe seu nome: ");
-        nome = scan.next();
-
-        System.out.println("Informe sua classe desejada: ");
-        Classes = scan.next();
-    }
 }
