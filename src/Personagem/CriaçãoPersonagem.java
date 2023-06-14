@@ -26,6 +26,8 @@ public class CriaçãoPersonagem {
         System.out.println("Inteligência: ");
         int inteligencia = aleatorio.nextInt(101);
 
+        System.out.println();
+
         System.out.println("Personagem Criado! ");
         System.out.println("Nome: " + nome);
         System.out.println("Classe: " + classe);
@@ -33,6 +35,8 @@ public class CriaçãoPersonagem {
         System.out.println("Força: " + forca);
         System.out.println("Destreza: " + destreza);
         System.out.println("Inteligência: " + inteligencia);
+
+        System.out.println();
 
     }
 }
