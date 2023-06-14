@@ -1,10 +1,14 @@
 package Personagem;
 
+import java.util.Random;
 import java.util.Scanner;
+import java.util.random.RandomGenerator;
 
 public class Perguntas {
 
     static Scanner input = new Scanner(System.in);
+    static Random chamada = new Random();
+    static int tentativas = 0;
 
     private static class perguntas{
 
@@ -36,6 +40,7 @@ public class Perguntas {
             do
             {
                 pergunta1 = input.next();
+                tentativas ++;
 
                 switch (pergunta1)
                 {
@@ -66,7 +71,9 @@ public class Perguntas {
             }
             while (pergunta1.equals("a") == false);
 
+
         }
+
 
         public void Pergunta2(){
 
@@ -94,6 +101,7 @@ public class Perguntas {
             do
             {
                 pergunta2 = input.next();
+                tentativas ++;
 
                 switch (pergunta2)
                 {
@@ -122,7 +130,13 @@ public class Perguntas {
                 }
 
             }
-            while (pergunta2.equals("c") == false);
+            while (pergunta2.equals("c") || tentativas <3);
+
+            System.out.println(
+                    "Você passou o limite de tentativas. Comece novamente!!!"
+            )
+            ;
+            Pergunta1();
 
         }
 
@@ -564,6 +578,234 @@ public class Perguntas {
             while (pergunta10.equals("d") == false);
 
         }
+        public void Pergunta11() {
+
+            String pergunta11;
+
+            System.out.println("---------------------------------------------------------------------------------------");
+            System.out.println(
+                    "Convertendo o número hexadecimal 2A1(16), qual alternativa apresenta a sua conversão adequada ao sistema binário?"
+            )
+            ;
+
+            System.out.println(
+                    "-----------------------------------\n" +
+                            "Qual a resposta correta?\n" +
+                            "-----------------------------------"
+            )
+            ;
+
+            System.out.println("a: 1010100001");
+            System.out.println("b: 1010101001");
+            System.out.println("c: 1010101010");
+            System.out.println("d: 1111100000");
+
+            do
+            {
+                pergunta11 = input.next();
+
+                switch (pergunta11)
+                {
+                    case "a":
+                        System.out.println("Resposta Correta! ");
+
+                        break;
+
+                    case "b":
+                        System.out.println("Resposta Incorreta! ");
+
+                        break;
+
+                    case "c":
+                        System.out.println("Resposta Incorreta!");
+
+                        break;
+
+                    case "d":
+                        System.out.println("Resposta incorreta!");
+
+                        break;
+
+                    default:
+                        System.out.println("Invalido!");
+                }
+
+            }
+            while (pergunta11.equals("a") == false);
+
+        }
+        public void Pergunta12() {
+
+            String pergunta12;
+
+            System.out.println("---------------------------------------------------------------------------------------");
+            System.out.println(
+                    "Qual o proximo termo da sequência?\n " +
+                            "-8, -10, -12, ..."
+            )
+            ;
+
+            System.out.println(
+                    "-----------------------------------\n" +
+                            "Qual a resposta correta?\n" +
+                            "-----------------------------------"
+            )
+            ;
+
+            System.out.println("a: -18");
+            System.out.println("b: -14");
+            System.out.println("c: 17");
+            System.out.println("d: 14");
+
+            do
+            {
+                pergunta12 = input.next();
+
+                switch (pergunta12)
+                {
+                    case "b":
+                        System.out.println("Resposta Correta! ");
+
+                        break;
+
+                    case "a":
+                        System.out.println("Resposta Incorreta! ");
+
+                        break;
+
+                    case "c":
+                        System.out.println("Resposta Incorreta!");
+
+                        break;
+
+                    case "d":
+                        System.out.println("Resposta incorreta!");
+
+                        break;
+
+                    default:
+                        System.out.println("Invalido!");
+                }
+
+            }
+            while (pergunta12.equals("b") == false);
+
+        }
+        public void Pergunta13() {
+
+            String pergunta13;
+
+            System.out.println("---------------------------------------------------------------------------------------");
+            System.out.println(
+                    "Qual o proximo termo da sequência dos numeros impares?\n " +
+                            "117, 115, 113, ..."
+            )
+            ;
+
+            System.out.println(
+                    "-----------------------------------\n" +
+                            "Qual a resposta correta?\n" +
+                            "-----------------------------------"
+            )
+            ;
+
+            System.out.println("a: -110");
+            System.out.println("b: 111");
+            System.out.println("c: -111");
+            System.out.println("d: 125");
+
+            do
+            {
+                pergunta13 = input.next();
+
+                switch (pergunta13)
+                {
+                    case "b":
+                        System.out.println("Resposta Correta! ");
+
+                        break;
+
+                    case "a":
+                        System.out.println("Resposta Incorreta! ");
+
+                        break;
+
+                    case "c":
+                        System.out.println("Resposta Incorreta!");
+
+                        break;
+
+                    case "d":
+                        System.out.println("Resposta incorreta!");
+
+                        break;
+
+                    default:
+                        System.out.println("Invalido!");
+                }
+
+            }
+            while (pergunta13.equals("b") == false);
+
+        }
+        public void Pergunta14() {
+
+            String pergunta14;
+
+            System.out.println("---------------------------------------------------------------------------------------");
+            System.out.println(
+                    "Escreva o termo que esta faltando na sequência\n " +
+                            "12, 15, 18, 24, ..."
+            )
+            ;
+
+            System.out.println(
+                    "-----------------------------------\n" +
+                            "Qual a resposta correta?\n" +
+                            "-----------------------------------"
+            )
+            ;
+
+            System.out.println("a: -23");
+            System.out.println("b: -21");
+            System.out.println("c: 22");
+            System.out.println("d: 21");
+
+            do
+            {
+                pergunta14 = input.next();
+
+                switch (pergunta14)
+                {
+                    case "d":
+                        System.out.println("Resposta Correta! ");
+
+                        break;
+
+                    case "b":
+                        System.out.println("Resposta Incorreta! ");
+
+                        break;
+
+                    case "c":
+                        System.out.println("Resposta Incorreta!");
+
+                        break;
+
+                    case "a":
+                        System.out.println("Resposta incorreta!");
+
+                        break;
+
+                    default:
+                        System.out.println("Invalido!");
+                }
+
+            }
+            while (pergunta14.equals("d") == false);
+
+        }
+
     }
 
     public static void main()
@@ -580,6 +822,10 @@ public class Perguntas {
         pergunta.Pergunta8();
         pergunta.Pergunta9();
         pergunta.Pergunta10();
+        pergunta.Pergunta11();
+        pergunta.Pergunta12();
+        pergunta.Pergunta13();
+        pergunta.Pergunta14();
 
     }
 }
