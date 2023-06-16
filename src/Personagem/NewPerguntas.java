@@ -122,6 +122,7 @@ public class NewPerguntas {
         public Pergunta(String enunciado,String respostaCorreta ,String... alternativas){
             this.enunciado = enunciado;
             this.alternativas = alternativas;
+            this.respostaCorreta = respostaCorreta;
 
         }
 
@@ -153,10 +154,10 @@ public class NewPerguntas {
                     System.out.println("Resposta Incorreta!");
 
                 }
-            }while (!resposta.equals(respostaCorreta) && tentativas <3);
-                if (tentativas >= 3){
+            }while (!resposta.equals(respostaCorreta) && tentativas >=3);
+                if (tentativas == 3){
                     System.out.println("Você passou do limite de tentativas. Comece novamente!");
-                    Thread.sleep(4000);
+                    Thread.sleep(3000);
                     System.out.println();
                     System.out.println("1: Jogar Novamente");
                     System.out.println("2: Sair");

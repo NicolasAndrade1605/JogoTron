@@ -46,7 +46,7 @@ public class MenuDoJogo {
                     NewPerguntas.main();
                     System.out.println("Parabens você acertou todas as respostas!");
                     System.out.println("-----------------------------------------------------");
-                    System.out.println("Você conclui o objetivo do ");
+                    System.out.println("Você conclui o objetivo do Jogo!!!");
 
                     break;
 
