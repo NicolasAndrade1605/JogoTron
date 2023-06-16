@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6e3cf66-6ec8-4812-899e-cc9b9f173be2" name="Changes" comment="ajustes finais jogo">
+    <list default="true" id="c6e3cf66-6ec8-4812-899e-cc9b9f173be2" name="Changes" comment="ajustes finais jogo novo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instruções/Creditos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instruções/Creditos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Instruções/InstruçõesJogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instruções/InstruçõesJogo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu/MenuDoJogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/MenuDoJogo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Personagem/CriaçãoPersonagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personagem/CriaçãoPersonagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personagem/HistoriaJogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personagem/HistoriaJogo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Personagem/NewPerguntas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personagem/NewPerguntas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Personagem/TstPerguntas.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,8 +138,18 @@
       <workItem from="1686678331412" duration="4796000" />
       <workItem from="1686769964726" duration="5708000" />
       <workItem from="1686787556803" duration="10410000" />
-      <workItem from="1686858351612" duration="1472000" />
+      <workItem from="1686858351612" duration="3808000" />
+      <workItem from="1686935190140" duration="1912000" />
+      <workItem from="1686946004459" duration="1212000" />
     </task>
+    <task id="LOCAL-00001" summary="ajustes finais jogo novo">
+      <created>1686889611929</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686889611929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +168,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajustes finais jogo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajustes finais jogo" />
+    <MESSAGE value="ajustes finais jogo novo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustes finais jogo novo" />
   </component>
 </project>

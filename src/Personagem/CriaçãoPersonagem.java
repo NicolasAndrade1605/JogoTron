@@ -12,11 +12,6 @@ public class CriaçãoPersonagem {
         System.out.println("Crie seu personagem: ");
         System.out.println("Nome: ");
         String nome = entrada.nextLine();
-        System.out.println("Classe: ");
-        System.out.println("Você pode escolher entre essas classes: " +
-                "\n 1- AZUL" +
-                "\n 2- LARANJA");
-        String classe = entrada.nextLine();
         System.out.println("Nivel: ");
         int nivel = aleatorio.nextInt(101);
         System.out.println("Força: ");
@@ -30,7 +25,6 @@ public class CriaçãoPersonagem {
 
         System.out.println("Personagem Criado! ");
         System.out.println("Nome: " + nome);
-        System.out.println("Classe: " + classe);
         System.out.println("Nivel: " + nivel);
         System.out.println("Força: " + forca);
         System.out.println("Destreza: " + destreza);
