@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class CriaçãoPersonagem {
-    public static void main() {
+    public static void main() throws InterruptedException {
         Scanner entrada = new Scanner(System.in);
         Random aleatorio = new Random();
 

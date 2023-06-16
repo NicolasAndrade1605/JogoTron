@@ -17,6 +17,8 @@ public class MenuDoJogo {
     static Scanner scan = new Scanner(System.in);
 
 
+
+
     public static void main(String[] args) throws InterruptedException {
 
         String opcao;
@@ -42,6 +44,9 @@ public class MenuDoJogo {
                     CriaçãoPersonagem.main();
                     Thread.sleep(5000);
                     NewPerguntas.main();
+                    System.out.println("Parabens você acertou todas as respostas!");
+                    System.out.println("-----------------------------------------------------");
+                    System.out.println("Você conclui o objetivo do ");
 
                     break;
 
